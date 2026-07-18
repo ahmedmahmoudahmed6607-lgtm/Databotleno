@@ -5,7 +5,7 @@ import datetime
 import os
 import aiohttp
 import html
-from aiogram import Bot, Dispatcher, Router, F, types
+from aiogram import Bot
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
